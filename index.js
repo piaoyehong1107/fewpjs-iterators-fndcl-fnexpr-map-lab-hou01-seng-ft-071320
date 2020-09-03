@@ -20,4 +20,5 @@ const titleCased = () => {
     }
    strs.push(str[i].join(' ')) 
   }
+  return strs
 }
