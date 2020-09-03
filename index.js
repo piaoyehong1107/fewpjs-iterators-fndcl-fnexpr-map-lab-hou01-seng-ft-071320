@@ -15,9 +15,8 @@ const titleCased = () => {
 stc=tutorials.map(setc => setc.toLowerCase().split(' '));
   for (var i = 0; i < str.length; i++) {
     for (var j=0; j<str[i].length; i++){
-      str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1); 
+      str[i][j] = str[i][j].charAt(0).toUpperCase() + str[i][j].slice(1); 
     }
-    
   }
   return str.join(' ');
 }
