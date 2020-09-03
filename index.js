@@ -13,10 +13,11 @@ const tutorials = [
 
 const titleCased = () => {
   const str=tutorials.map(setc => setc.toLowerCase().split(' '));
-  const strs= for (var i = 0; i < str.length; i++) {
+  strs=[]
+  for (var i = 0; i < str.length; i++) {
     for (var j=0; j< str[i].length; j++){
       str[i][j] = str[i][j].charAt(0).toUpperCase() + str[i][j].slice(1); 
     }
-    str[i].join(' ')
+   strs.push(str[i].join(' ')) 
   }
 }
