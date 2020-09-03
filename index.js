@@ -18,5 +18,5 @@ str=tutorials.map(setc => setc.toLowerCase().split(' '));
       str[i][j] = (str[i][j].charAt(0).toUpperCase() + str[i][j].slice(1)).join(' '); 
     }
   }
-  return str.join(' ');
+  return str;
 }
