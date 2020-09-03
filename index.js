@@ -19,5 +19,4 @@ str=tutorials.map(setc => setc.toLowerCase().split(' '));
     }
     str[i].join(' ')
   }
-  return str;
 }
