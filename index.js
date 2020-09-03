@@ -12,7 +12,7 @@ const tutorials = [
 ];
 
 const titleCased = () => {
-  const str=tutorials.map(setc => setc.toLowerCase().split(' '));
+  const str=tutorials.map(setc => setc.split(' '));
   let strs=[]
   for (var i = 0; i < str.length; i++) {
     for (var j=0; j< str[i].length; j++){
